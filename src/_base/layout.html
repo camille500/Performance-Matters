@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     {% include './app-meta.html' %}
 
@@ -16,9 +17,15 @@
 
 <body {% block body_attributes %}{% endblock %}>
 
-    {% block body %}{% endblock %}
+    <script src="/dist/js/fontfaceobserver.js"></script>
+    <script>
+      var font = new FontFaceObserver('source_sans_pro');
+      font.load().then(function () {
+        document.documentElement.className += ' fonts-loaded';
+      });
+    </script>
 
-
-    {% block scripts_extra %}{% endblock %}
+    {% block body %}{% endblock %} {% block scripts_extra %}{% endblock %}
 </body>
+
 </html>
