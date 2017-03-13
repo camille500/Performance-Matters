@@ -20,7 +20,7 @@
     <script src="/dist/js/fontfaceobserver.js"></script>
     <script>
       var font = new FontFaceObserver('source_sans_pro');
-      font.load().then(function () {
+      font.load(null, 15000).then(function () {
         document.documentElement.className += ' fonts-loaded';
       });
     </script>
