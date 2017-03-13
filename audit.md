@@ -25,4 +25,4 @@ Added the picture tag with srcset and media attributes. Compressed images to sma
 - **Transfered:** 482KB (-496KB t.o.v. Audit 2 / - 718 t.o.v. Audit 1)
 - **DOMContentLoaded:** 5.78s (+ 0.1s t.o.v. Audit 2 / -13.18s t.o.v. Audit 1)
 - **Load:** 16.44s (-15.82s t.o.v. Audit 2 / -25.16 t.o.v. Audit 1)
-![Optimized images Audit](screenshots/2. Optimized images.png "Gzip Compression Audit")
+![Optimized images Audit](screenshots/3. Optimized images.png "Gzip Compression Audit")
