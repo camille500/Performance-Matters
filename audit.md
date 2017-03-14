@@ -45,4 +45,4 @@ Minify the docs.css with gulp-clean-css
 - **Transfered:** 304KB
 - **DOMContentLoaded:** 3.02s
 - **Load:** 10.73s
-![Gzip Compression Audit](https://github.com/camille500/performance-matters/blob/master/screenshots/5.%20MiniCss.png)
+![Gzip Compression Audit](https://github.com/camille500/performance-matters/blob/master/screenshots/6.%20MiniCss.png)
