@@ -43,6 +43,16 @@ Used CDN's instead of the local files for some of the JS and CSS
 Minify the docs.css with gulp-clean-css
 - **Requests:** 14
 - **Transfered:** 304KB
-- **DOMContentLoaded:** 3.02s
-- **Load:** 10.73s
+- **DOMContentLoaded:** 3.41s
+- **Load:** 10.48s
 ![Gzip Compression Audit](https://github.com/camille500/performance-matters/blob/master/screenshots/6.%20MiniCss.png)
+
+## Better Image Optimization
+
+Better image optimization
+- **Requests:** 14
+- **Transfered:** 223KB
+- **DOMContentLoaded:** 3.02s
+- **Load:** 8.15s
+
+![Gzip Compression Audit](https://github.com/camille500/performance-matters/blob/master/screenshots/7.%20BetterImage.png)

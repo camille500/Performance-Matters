@@ -1,7 +1,6 @@
 var gulp = require('gulp');
-var concatCSS = require('gulp-concat-css');
+// var concatCSS = require('gulp-concat-css');
 var cleanCSS = require('gulp-clean-css');
-var sourcemaps = require('gulp-sourcemaps');
 var rename = require('gulp-rename');
 
 gulp.task('styles', function () {
