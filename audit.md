@@ -8,7 +8,7 @@ Regular 2G (300ms, 250kb/s, 50kb/s)
 - **Transfered:** 1.2MB
 - **DOMContentLoaded:** 19.50s
 - **Load:** 41.60s
-![Alt Text](screenshots/1. Initial.png)
+![Alt Text](https://github.com/camille500/performance-matters/tree/master/screenshots)
 
 ## Added Gzip and defer
 
