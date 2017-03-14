@@ -1,22 +1,22 @@
-var gulp = require('gulp');
-var critical = require('critical');
-var cleanCSS = require('gulp-clean-css');
-var rename = require('gulp-rename');
-var fs = require('fs');
+const gulp = require('gulp');
+const critical = require('critical');
+const cleanCSS = require('gulp-clean-css');
+const rename = require('gulp-rename');
+const fs = require('fs');
 
-const config = {
-	srcPath: './src',
-	assetsPath: './src/assets',
-	distPath: `./src/dist`,
-	buildPath: './src/build'
-};
+gulp.task('cssStyles', function () {
+  return gulp.src('./src/dist/css/docs.css')
+    .pipe(cleanCSS())
+    .pipe(rename("docs.min.css"))
+    .pipe(gulp.dest('./src/dist/css/'));
+});
 
-gulp.task('css:critical', () => {
-	const html = fs.readFileSync('./src/index.html');
+gulp.task('cssCritical', () => {
+	const htmlPage = fs.readFileSync('./src/index.html');
 	critical.generate({
 		inline: false,
 		base: './',
-		html: html,
+		html: htmlPage,
     minify: true,
 		src: './src/_base/layout.html',
 		css: ['./src/dist/css/bootstrap.css', './src/dist/css/docs.css'],
