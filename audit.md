@@ -56,3 +56,26 @@ Better image optimization
 - **Load:** 8.15s
 
 ![Gzip Compression Audit](https://github.com/camille500/performance-matters/blob/master/screenshots/7.%20BetterImage.png)
+
+## Font Face Defer
+
+FontFaceObserver.js now also defer (last audit, it wasn't there somehow. So now 1 extra request but same load time)
+- **Requests:** 15
+- **Transfered:** 304KB
+- **DOMContentLoaded:** 5.17s
+- **Load:** 8.15s
+
+![Gzip Compression Audit](https://github.com/camille500/performance-matters/blob/master/screenshots/9.%20Final.png)
+
+## Final Google Pagespeed Insight
+
+![Gzip Compression Audit](https://github.com/camille500/performance-matters/blob/master/screenshots/8.%20Font.png)
+
+## Results
+
+- **Requests:** -3 requests t.o.v. first test
+- **Transfered:** -896KB since first test
+- **DOMContentLoaded:** -14.33s since first test
+- **Load:** -33.45s since first test
+
+### Site is now 5.10 times faster

@@ -6,13 +6,6 @@ const fs = require('fs');
 const webp = require('gulp-webp');
 const imagemin = require('gulp-imagemin');
 const concatCss = require('gulp-concat-css');
-const htmlmin = require('gulp-htmlmin');
-
-gulp.task('minifyHTML', function() {
-  return gulp.src('src/**/*.html')
-    .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(gulp.dest('src/'));
-});
 
 gulp.task('compressImages', () =>
     gulp.src('src/assets/img/*')
