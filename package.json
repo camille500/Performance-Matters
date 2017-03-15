@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gulp-concat-css": "^2.3.0",
+    "gulp-htmlmin": "^3.0.0",
     "ngrok": "2.2.6",
     "nodemon": "1.11.0"
   },
@@ -23,8 +25,14 @@
     "gulp-clean-css": "^3.0.3",
     "gulp-concat": "^2.6.1",
     "gulp-concat-css": "^2.3.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-inject": "^4.2.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^2.1.0",
+    "gulp-webp": "^2.3.0",
+    "imagemin": "^5.2.2",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-pngquant": "^5.0.0",
     "nunjucks": "3.0.0"
   }
 }
