@@ -1,8 +1,12 @@
 # Performance matters
 
+## Url to the code
+
+- [Code](https://github.com/camille500/performance-matters/tree/master/src)
+
 ## Project setup
 
-This project serves an adapted version of the [Bootstrap documentation website](http://getbootstrap.com/). It is based on the [github pages branche of Bootstrap](https://github.com/twbs/bootstrap/tree/gh-pages). 
+This project serves an adapted version of the [Bootstrap documentation website](http://getbootstrap.com/). It is based on the [github pages branche of Bootstrap](https://github.com/twbs/bootstrap/tree/gh-pages).
 
 Differences from actual Bootstrap documentation:
 
