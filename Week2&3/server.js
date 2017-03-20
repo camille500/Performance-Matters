@@ -2,9 +2,11 @@
 ----------------------------------------- */
 const express = require('express');
 const path = require('path');
-const https = require('https');
+const request = require('request');
 
 const app = express();
+
+require('dotenv').config(); // process.env.MOVIE_API_KEY
 
 /* LOAD ALL ROUTERS
 ----------------------------------------- */
@@ -23,7 +25,7 @@ app.use('/movies', moviesRouter);
 /* INDEX PAGE
 ----------------------------------------- */
 app.get('/', function(req, res) {
-    res.render('index');
+  // console.log()
 });
 
 /* 404 PAGE
