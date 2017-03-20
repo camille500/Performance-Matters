@@ -1,0 +1,14 @@
+{
+  "name": "webapp-refactored",
+  "version": "1.0.0",
+  "description": "Refactoring of the application made during the webapp from scratch course",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Camille Sébastien Niessen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
